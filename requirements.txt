@@ -1,10 +1,10 @@
-streamlit==1.46.0 
-streamlit-authenticator==0.4.2
-pandas==2.3.0
-numpy==2.1.3
+streamlit
+streamlit-authenticator
+pandas
+numpy
 --index-url https://download.pytorch.org/whl/cpu
 torch==2.7.1+cpu 
-opencv-python==4.11.0.86 
-plotly==6.2.0
-transformers==4.53.3
-joblib==1.5.1
+opencv-python
+plotly
+transformers
+joblib
