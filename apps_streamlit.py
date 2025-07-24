@@ -199,6 +199,7 @@ if not st.session_state.get("authentication_status"):
         - Mr. Bhavesh Mishra, Deputy Secretary, Government of Telangana.
         - Ms. Ila Tripathi, Collector, Nalgonda, Telangana.
         - Dr. G Ranjit Kumar, Ophthalmologist, GRK Visual Fields, Hyderabad, Telangana.
+        - Dr. Kulasekhar Rao G, Ophthalmologist, Pragathi Eye Clinic, Hyderabad, Telangana 
         """)
 
 # --- MAIN APPLICATION (Runs only after successful login) ---
