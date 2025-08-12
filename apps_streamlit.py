@@ -88,7 +88,7 @@ def create_report_pdf(patient_info, original_img, overlay_img, metrics_df, metri
             metrics_fig.write_image(tmp_chart.name, scale=2)
             pdf.image(tmp_chart.name, w=180, type='PNG')
 
-    return pdf.output(dest='S').encode('latin-1')
+    return pdf.output()
 
 
 # --- USER AUTHENTICATION CONFIG ---
