@@ -1,16 +1,13 @@
-# requirements.txt
+--find-links https://download.pytorch.org/whl/cpu
 scikit-learn==1.6.1
-streamlit==1.46.0
-streamlit-authenticator==0.4.2
-pandas==2.3.0
-numpy==2.1.3
-opencv-python-headless==4.11.0.86
-plotly==6.2.0
-transformers==4.53.3
-joblib==1.5.1
-
-# Use --extra-index-url to add the PyTorch CPU repo as a source
---extra-index-url https://download.pytorch.org/whl/cpu
+streamlit
+streamlit-authenticator
+pandas
+numpy
+opencv-python-headless
+plotly
+transformers
+joblib
 torch==2.7.1+cpu
 fpdf2
 kaleido==1.3.0
