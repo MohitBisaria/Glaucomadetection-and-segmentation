@@ -11,6 +11,12 @@ import streamlit_authenticator as stauth
 from fpdf import FPDF  # For PDF generation
 import tempfile      # For handling temporary files
 
+import os
+os.environ["PATH"] += os.pathsep + "/app/.apt/usr/bin"
+
+import plotly.express as px
+import plotly.io as pio
+
 # --- PAGE CONFIGURATION ---
 st.set_page_config(layout="wide")
 
