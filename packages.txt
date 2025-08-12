@@ -1,5 +1,8 @@
-ffmpeg
-libsm6
-libxext6
-libgl1-mesa-glx
-libglib2.0-0
+chromium-browser
+libnss3
+libatk1.0-0
+libatk-bridge2.0-0
+libcups2
+libdrm2
+libgbm1
+libatspi2.0-0
