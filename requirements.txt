@@ -12,3 +12,4 @@ joblib==1.5.1
 # Use --extra-index-url to add the PyTorch CPU repo as a source
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.7.1+cpu
+fpdf
