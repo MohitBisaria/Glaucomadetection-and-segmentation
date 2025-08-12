@@ -1,4 +1,5 @@
---find-links https://download.pytorch.org/whl/cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+
 scikit-learn==1.6.1
 streamlit
 streamlit-authenticator
@@ -10,4 +11,4 @@ transformers
 joblib
 torch==2.7.1+cpu
 fpdf2
-kaleido==1.3.0
+kaleido
